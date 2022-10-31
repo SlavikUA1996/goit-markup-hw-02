@@ -1,0 +1,131 @@
+:root{
+    --primary-text-color:#212121;
+    --title-text-color:#ffffff;
+    --accent-color:#2196F3;
+}
+
+body{
+    color: var(--primary-text-color);
+    background-color:var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+.logotype{
+    color: #000000;
+    text-decoration: none;
+}
+.site-nav .link {
+color: #212121;
+text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: #2196F3;
+}
+.link-address{
+    color: #212121;
+    text-decoration: none;
+}
+.link-address:hover,
+.link-address:focus{
+color: #2196F3;
+}
+
+.title{
+    color: var(--title-text-color);
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px; 
+    line-height:1.4;
+    text-align: center;
+}
+.post-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.button{
+    background-color: #2196F3;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16;
+    line-height: 1.9;
+}
+.text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.post-text{
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.worker{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.worker .workplace{
+color: #757575;
+}
+.footer{
+    background-color: #2F303A;
+    }
+    .address{
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 1.7;
+            }
+    .contacts{
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        line-height: 1.7;
+        text-decoration: none;
+    }
+    .logo-footer{
+        font-family: 'Raleway';
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+    }
+    .logo-footer .logo-blue{
+        color: #2196F3;
+    }
+
+
+    /*portfolio*/
+    .logo-header{
+        font-family: 'Raleway';
+        color: #000000;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+    }
+    .logo-header .logo-blue{
+    color: #2196F3;
+    }
+.buttons{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    }
+.buttons:hover,
+.buttons:focus{
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.projects{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.jobs{
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.9;
+}
