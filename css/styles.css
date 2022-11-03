@@ -12,23 +12,24 @@ body{
     background-color:var(--title-text-color);
     font-family: 'Roboto', sans-serif;
 }
-.logotype{
-    color: var(--logo-color);
-    text-decoration: none;
-}
-.list .link {
+
+.link {
 color: var(--primary-text-color);
 text-decoration: none;
 font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
 }
 .list .link:hover,
 .list .link:focus{
 color: var(--accent-color);
 }
 .link-address{
-    color: var(--primary-text-color);
+    color: var(--info-text);
     text-decoration: none;
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .link-address:hover,
 .link-address:focus{
@@ -42,28 +43,32 @@ color: var(--accent-color);
     font-size: 44px; 
     line-height:1.4;
     text-align: center;
+    text-transform: uppercase;
 }
 .post-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
 }
+.section{
+    text-align: center;
+}
 .button{
+    font-family: 'Roboto';
     background-color: var(--accent-color);
     color: var(--title-text-color);
     cursor: pointer;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-}
+    letter-spacing: 2px;
+ }
 .list{
     list-style: none;
 }
 .text{
-    font-weight: 700;
+    text-transform: uppercase;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.14;
 }
 .post-text{
     color: var(--info-text);
@@ -108,8 +113,7 @@ line-height: 1.2;
     .logo-info{
         font-family: 'Raleway';
         color: var(--title-text-color);
-        font-weight: 700;
-        font-size: 26px;
+            font-size: 26px;
         line-height: 1.2;
         text-decoration: none;
     }
@@ -122,7 +126,6 @@ line-height: 1.2;
     .logo-header{
         font-family: 'Raleway';
         color: var(--logo-color);
-        font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
         text-decoration: none;
@@ -131,6 +134,7 @@ line-height: 1.2;
     color: var(--accent-color);
     }
 .buttons{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -142,7 +146,6 @@ line-height: 1.2;
     color: var(--title-text-color);
 }
 .projects{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
