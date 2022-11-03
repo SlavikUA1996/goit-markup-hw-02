@@ -139,6 +139,8 @@ line-height: 1.2;
     font-size: 16px;
     line-height: 1.6;
     cursor: pointer;
+    letter-spacing: 1px;
+    }
     }
 .buttons:hover,
 .buttons:focus{
